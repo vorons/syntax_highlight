@@ -1,0 +1,33 @@
+<?php
+
+// =========================================
+// PLUGIN INFO
+// =========================================
+$_PLUGIN_CONFIG['DATA'] = array(
+	'author'=>'Сергей Ворон',
+	'version'=>'1.2',
+	'url'=>'http://voronsa.ru',
+	'display'=>false
+);
+
+// =========================================
+// PLUGIN CLASS
+// =========================================
+class PLUGIN_SYNTAX_HIGHLIGHT extends Plugin
+{
+	
+	public function get_html()
+	{
+		
+		$html = '
+			<link rel="stylesheet" href="'.HTML_PATH_PLUGINS.'syntax_highlight/highlight.pack.css">
+      <script src="'.HTML_PATH_PLUGINS.'syntax_highlight/highlight.pack.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script>
+		';
+
+		return($html);
+	}
+
+}
+
+?>
