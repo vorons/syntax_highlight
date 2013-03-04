@@ -1,0 +1,8 @@
+<?php
+
+$_PLUGIN_CONFIG['LANG'] = array(
+	'NAME'=>'Syntax highlight',
+	'DESCRIPTION'=>'Добавляет подсветку синтаксиса в ваш блог.'
+);
+
+?>

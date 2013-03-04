@@ -1,8 +1,8 @@
 <?php
 
 $_PLUGIN_CONFIG['LANG'] = array(
-	'name'=>'Syntax highlight',
-	'description'=>'Add syntax highlight to your blog.'
+	'NAME'=>'Syntax highlight',
+	'DESCRIPTION'=>'Add syntax highlight to your blog.'
 );
 
 ?>
